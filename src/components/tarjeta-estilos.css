@@ -1,0 +1,81 @@
+.tarjeta{
+    height: 280px;
+    width: 250px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #300754;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.contenidoTarjeta{
+    display: flex;
+    flex-direction: column;
+}
+
+.datosTarjeta{
+    display: none;
+}
+
+.tarjeta i{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.tarjeta h1{
+    font-size: 18px;
+    color: #e38314;
+}
+
+.tarjeta p{
+    max-width: 220px;
+    font-size: 14px;
+    color: #ffdebf;
+    font-weight: 700;
+}
+
+.tarjeta:hover{
+    transform: scale(1.05);
+    box-shadow: 15px 15px 50px black;
+    transition: .8s;
+}
+
+.tarjeta:hover > .contenidoTarjeta > .datosTarjeta{
+    display: block;
+    top: 90px;
+    animation: traslado 1s ease-in-out;
+}
+
+@keyframes traslado{
+    from{
+        transform: translateY(200px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width:920px){
+    .tarjeta{
+        width: 270px;
+        height: 200px;
+        box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.753);
+    }
+    .tarjeta i{
+        font-size: 27px;
+    }
+    .tarjeta h1{
+        font-size: 18px;
+    }
+    .tarjeta p{
+        max-width: 550px;
+    }
+}

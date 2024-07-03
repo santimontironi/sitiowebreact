@@ -1,0 +1,128 @@
+.contenedor3{
+    height: 150vh;
+    width: 100%;
+}
+
+.tituloAboutUs{
+    height: 420px;
+    width: 100%;
+    background: url(/src/assets/img/aboutUs.jpg);
+    color: #5a1267;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.contenidoAboutUs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenidoAboutUs .info{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contenidoAboutUs .info .imagen img{
+    width: 600px;
+    height: 400px;
+}
+
+.contenidoAboutUs .info .us{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.contenidoAboutUs .info .us h1{
+    font-size: 45px;
+}
+
+.contenidoAboutUs .info .us p{
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.contenidoAboutUs .skills-team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4%;
+    position: relative;
+    width: 100%;
+    height: 360px;
+    background: url(/src/assets/img/skills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contenidoAboutUs .skills-team .skills{
+    margin-top: 5%;
+}
+
+.contenidoAboutUs .skills-team .skills h1{
+    font-size: 45px;
+}
+
+.contenidoAboutUs .skills-team .team{
+    margin-top: 1%;
+    margin-left: 4%;
+}
+
+.contenidoAboutUs .skills-team .team h1{
+    font-size: 45px;
+    color: #4c1755;;
+}
+
+.contenidoAboutUs .skills-team .team .container-team{
+    display: flex;
+}
+
+@media (max-width:920px){
+    .tituloAboutUs{
+        width: 100%;
+        height: 300px;
+        font-size: 32px;
+    }
+    .contenidoAboutUs .info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenidoAboutUs .info .imagen img{
+        width: 340px;
+        height: 250px;
+    }
+    .contenidoAboutUs .info .us p{
+        font-size: 16px;
+        max-width: 360px;
+    }
+    .contenidoAboutUs .skills-team{
+        flex-direction: column;
+        justify-content: center;
+        height: 1400px;
+    }
+    .contenidoAboutUs .skills-team .skills{
+        margin-bottom: 20%;
+    }
+    .contenidoAboutUs .skills-team .team{
+        margin-top: 10px;
+    }
+    .contenidoAboutUs .skills-team .team .container-team{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,18 @@
+.skills h1{
+    font-size: 45px;
+    color: #4c1755;
+}
+
+.skills progress{
+    width: 500px;
+}
+
+.skills p{
+    color: black;
+}
+
+@media (max-width:920px){
+    .skills progress{
+        width: 340px;
+    }
+}

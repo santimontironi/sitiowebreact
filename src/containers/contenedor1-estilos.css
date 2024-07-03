@@ -1,0 +1,50 @@
+.contenedor1{
+    height: 100vh;
+    max-width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.70)),url(/src/assets/img/fondoContenedor1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: 'Clash Display', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+}
+
+main h1{
+    color: white;
+    font-size: 45px;
+    letter-spacing: 2px;
+    max-width: 850px;
+    text-align: center;
+    font-weight: 300;
+}
+
+main p{
+    color: white;
+    max-width: 670px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+@media (max-width:920px){
+    main h1{
+        font-weight: 500;
+        max-width: 380px;
+    }
+    main p{
+        max-width: 430px;
+        font-weight: 300;
+    }
+}
