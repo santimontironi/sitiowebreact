@@ -1,6 +1,6 @@
 # Desarrollo Web
 
-FullWeb es una aplicación de demostración para mostrar cómo construir un sitio web utilizando React y estilos personalizados. Este proyecto es una plantilla básica que incluye secciones para presentar información sobre los servicios, el equipo, las habilidades y una forma de contacto.
+Este sitio web es una aplicación de demostración para mostrar cómo construir un sitio web utilizando React y estilos personalizados. Este proyecto es una plantilla básica que incluye secciones para presentar información sobre los servicios, el equipo, las habilidades y una forma de contacto.
 
 ## Estructura del Proyecto
 
