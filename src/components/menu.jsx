@@ -4,10 +4,12 @@ export function Menu(){
 
     const [abrirMenu,setAbrirMenu] = useState(false);
 
+    //Funciona para alternar el menu abierto y cerrado a la hora de ser responsive nuestro sitio web.
     function verMenu(){
         setAbrirMenu(!abrirMenu);
     }
 
+    //Con esta funcion lo que estamos haciendo es un scroll de manera rapida hasta la seccion que se quiera recorrer,donde esta se captura mediante su ID.
     function scrollToSection(id){
         const section = document.getElementById(id);
         if(section){
