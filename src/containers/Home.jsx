@@ -1,8 +1,8 @@
-import './contenedor1-estilos.css'
-import { Menu } from '../components/menu'
-export function Contenedor1(){
+import './Home.css'
+import { Menu } from '../components/Menu'
+export function Home(){
     return(
-        <div className="contenedor1">
+        <div className="contenedor1" id='home'>
             <Menu/>
             <main>
                 <h1>We help startups launch their produts</h1>

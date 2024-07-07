@@ -8,6 +8,14 @@ export function Menu(){
         setAbrirMenu(!abrirMenu);
     }
 
+    function scrollToSection(id){
+        const section = document.getElementById(id);
+        if(section){
+            section.scrollIntoView({behavior: 'smooth'})
+            setAbrirMenu(false)
+        }
+    }
+
     return(
         <header>
             <div className="logo">
@@ -21,10 +29,10 @@ export function Menu(){
                     <i className='bx bx-x'></i>
                 </button>
                 <ul>
-                    <li><a className='hvr-underline-from-center' href="/index.html">Home</a></li>
-                    <li><a className='hvr-underline-from-center' href="#services">Services</a></li>
-                    <li><a className='hvr-underline-from-center' href="#aboutUs">About us</a></li>
-                    <li><a className='hvr-underline-from-center' href="#contact">Contact</a></li>
+                    <li><a className='hvr-underline-from-center' onClick={() => scrollToSection('home')}>Home</a></li>
+                    <li><a className='hvr-underline-from-center' onClick={() => scrollToSection('services')}>Services</a></li>
+                    <li><a className='hvr-underline-from-center' onClick={() => scrollToSection('aboutUs')}>About us</a></li>
+                    <li><a className='hvr-underline-from-center' onClick={() => scrollToSection('contact')}>Contact</a></li>
                 </ul>
             </nav>
         </header> 

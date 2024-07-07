@@ -38,6 +38,7 @@ header nav ul li a{
     color: #fff;
     font-size: 18px;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 
 .btnAbrirMenu{
@@ -85,6 +86,7 @@ header nav ul li a{
         gap: 70px;
         z-index: 2;
         width: 200px;
+        visibility: hidden;
         opacity: 0;
     }
     header nav ul{

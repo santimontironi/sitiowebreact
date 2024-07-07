@@ -1,6 +1,6 @@
-import './contenedor4-estilos.css'
-import { Footer } from '../components/footer'
-export function Contenedor4(){
+import './Contact.css'
+import { Footer } from '../components/Footer'
+export function Contact(){
     return(
         <div className="contenedor4" id='contact'>
             <div className="tituloContact">

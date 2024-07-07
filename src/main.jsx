@@ -2,16 +2,16 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import './hover.css'
-import { Contenedor1 } from './containers/Contenedor1'
-import { Contenedor2 } from './containers/Contenedor2'
-import { Contenedor3 } from './containers/Contenedor3'
-import { Contenedor4 } from './containers/Contenedor4'
+import { Home } from './containers/Home';
+import { Services } from './containers/Services'
+import { About } from './containers/AboutUs'
+import { Contact } from './containers/Contact'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Contenedor1 />
-    <Contenedor2 />
-    <Contenedor3 />
-    <Contenedor4 />
+    <Home />
+    <Services />
+    <About />
+    <Contact />
   </React.StrictMode>,
 )

@@ -1,6 +1,6 @@
-import './contenedor2-estilos.css'
+import './Services.css'
 import { Tarjeta } from '../components/Tarjeta'
-export function Contenedor2(){
+export function Services(){
     return(
         <div className="contenedor2" id='services'>
             <section className="texto">

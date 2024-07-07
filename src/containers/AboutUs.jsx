@@ -1,4 +1,4 @@
-import './contenedor3-estilos.css'
+import './AboutUs.css'
 import { Skill } from '../components/Skill'
 import { Team } from '../components/Team'
 import imagenOficina from '../assets/img/office.jpeg'
@@ -6,7 +6,7 @@ import team1 from '../assets/img/teamuno.jpg'
 import team2 from '../assets/img/teamdos.jpg'
 import team3 from '../assets/img/teamtres.jpg'
 
-export function Contenedor3(){
+export function About(){
     return(
         <div className="contenedor3" id='aboutUs'>
             <div className="tituloAboutUs">
