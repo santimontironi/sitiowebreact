@@ -55,7 +55,7 @@ footer .derecha i{
     margin-right: 20px;
 }
 
-@media (max-width:800px){
+@media (max-width:920px){
     .footerContenedor{
         height: auto;
         width: auto;

@@ -38,7 +38,7 @@ main p{
     letter-spacing: 1px;
 }
 
-@media (max-width:920px){
+@media (max-width:700px){
     main h1{
         font-weight: 500;
         max-width: 380px;

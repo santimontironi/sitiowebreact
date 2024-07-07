@@ -14,5 +14,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Services />
     <About />
     <Contact />
-  </React.StrictMode>,
+  </React.StrictMode>
 )
