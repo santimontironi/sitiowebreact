@@ -32,9 +32,3 @@ El proyecto está organizado en las siguientes secciones:
 - `CSS`: Para el diseño visual y la presentación de la información.
 - `JavaScript`: Para la lógica de la aplicación y la interacción con el usuario.
 - `React`: Para la construcción de la interfaz de usuario y la interacción con él.
-
-## Instalación
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/fullweb.git
